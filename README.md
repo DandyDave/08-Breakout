@@ -1,2 +1,3 @@
-# 08-Breakout
-A small breakout game for my Game Technology class at Indiana University
+This an adition to my brick breaker project started
+in my Game Technology class at Indiana University
+ 
