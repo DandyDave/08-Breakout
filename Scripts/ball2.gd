@@ -9,7 +9,7 @@ signal score
 func _ready():
  contact_monitor = true
  set_max_contacts_reported(4)
- var WorldNode = get_tree().get_current_scene()
+ var WorldNode = get_node("/root/World")
  connect("score", WorldNode, "increase_score")
  connect("lives", WorldNode, "decrease_lives")
 

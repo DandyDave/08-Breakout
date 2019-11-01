@@ -1,11 +1,11 @@
 extends StaticBody2D
 
-var gray = preload("res://Assets/tile_gray.png")
-var red = preload("res://Assets/tile_red.png")
-var blue = preload("res://Assets/tile_blue.png")
-var green = preload("res://Assets/tile_green.png")
-var purple = preload("res://Assets/tile_purple.png")
-var yellow = preload("res://Assets/tile_yellow.png")
+var gray = preload("res://Assets/17-Breakout-Tiles.png")
+var red = preload("res://Assets/07-Breakout-Tiles.png")
+var blue = preload("res://Assets/01-Breakout-Tiles.png")
+var green = preload("res://Assets/15-Breakout-Tiles.png")
+var purple = preload("res://Assets/05-Breakout-Tiles.png")
+var yellow = preload("res://Assets/13-Breakout-Tiles.png")
 
 onready var sprite = get_node("Sprite")
 var score = 10
